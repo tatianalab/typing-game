@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+html, body {
+    background: #fff;
+    color: #222021;
+    margin:0;
+    padding: 0;
+    padding-top: 10px;
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+    font-family: 'Quantico', sans-serif;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    outline:none;
+    background: #a80020;
+    background: #00b800;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    border-radius: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover{
+  background:white;
+  color:#00b800;
+  border:#00b800 solid ;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+    font-size: 2rem;
+    text-align:center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  font-size:1.2rem;
+  padding:1.5rem;
+}
+
+textarea {
+    font-family: 'Quantico', sans-serif;
+    border: 3px solid black;
+    width: 90%;
+    margin: 0 auto;
+    outline: none;
+    height: 200px;
+    background: #151718;
+    padding: 10px;
+    color:#fff;
+}
+textarea:disabled {
+    background-color: #1F2528;
 }
